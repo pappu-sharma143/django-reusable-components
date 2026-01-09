@@ -1,0 +1,282 @@
+# Core Django
+Django>=4.2,<5.0
+python-decouple>=3.8
+psycopg2-binary>=2.9.9
+pillow>=10.0.0
+
+# Django REST Framework
+djangorestframework>=3.14.0
+djangorestframework-simplejwt>=5.3.0
+django-filter>=23.3
+django-cors-headers>=4.3.0
+drf-yasg>=1.21.7
+markdown>=3.5
+
+# Authentication
+django-allauth>=0.57.0
+django-otp>=1.3.0
+qrcode>=7.4.2
+
+# Payments
+stripe>=7.0.0
+paypalrestsdk>=1.13.1
+
+# Notifications
+twilio>=8.10.0
+firebase-admin>=6.3.0
+onesignal-sdk>=2.0.0
+slack-sdk>=3.23.0
+sendgrid>=6.11.0
+
+# Utilities
+python-dateutil>=2.8.2
+pytz>=2023.3
+requests>=2.31.0
+
+# File Storage
+boto3>=1.29.0  # AWS S3
+django-storages>=1.14.2
+
+# Caching
+redis>=5.0.1
+django-redis>=5.4.0
+
+# Celery (Background Tasks)
+celery>=5.3.4
+django-celery-beat>=2.5.0
+django-celery-results>=2.5.1
+
+# Database
+dj-database-url>=2.1.0
+
+# Security
+django-ratelimit>=4.1.0
+django-axes>=6.1.1
+
+# Development
+django-debug-toolbar>=4.2.0
+django-extensions>=3.2.3
+ipython>=8.17.2
+
+# Testing
+pytest>=7.4.3
+pytest-django>=4.7.0
+pytest-cov>=4.1.0
+factory-boy>=3.3.0
+faker>=20.1.0
+coverage>=7.3.2
+
+# Code Quality
+black>=23.11.0
+flake8>=6.1.0
+isort>=5.12.0
+pylint>=3.0.2
+mypy>=1.7.1
+
+# Documentation
+sphinx>=7.2.6
+sphinx-rtd-theme>=2.0.0
+
+# Monitoring
+sentry-sdk>=1.38.0
+
+# API Documentation
+drf-spectacular>=0.27.0
+
+# Image Processing
+Pillow>=10.1.0
+
+# PDF Generation
+reportlab>=4.0.7
+weasyprint>=60.1
+
+# Excel/CSV
+openpyxl>=3.1.2
+xlsxwriter>=3.1.9
+
+# Search
+elasticsearch>=8.11.0
+django-elasticsearch-dsl>=8.0
+
+# Geolocation
+geopy>=2.4.1
+
+# Encryption
+cryptography>=41.0.7
+
+# Environment
+python-dotenv>=1.0.0
+
+# HTTP
+httpx>=0.25.2
+
+# JSON
+orjson>=3.9.10
+
+# Validation
+phonenumbers>=8.13.26
+email-validator>=2.1.0
+
+# Timezone
+pytz>=2023.3.post1
+
+# UUID
+shortuuid>=1.0.11
+
+# Slugify
+python-slugify>=8.0.1
+
+# Markdown
+markdown2>=2.4.10
+
+# HTML Parsing
+beautifulsoup4>=4.12.2
+lxml>=4.9.3
+
+# Rate Limiting
+django-ratelimit>=4.1.0
+
+# CORS
+django-cors-headers>=4.3.1
+
+# Webhooks
+django-webhook>=1.1.1
+
+# Social Auth
+social-auth-app-django>=5.4.0
+
+# Two-Factor Auth
+django-two-factor-auth>=1.15.5
+
+# API Throttling
+django-rest-framework-throttling>=1.0.0
+
+# Pagination
+django-rest-framework-pagination>=0.1.1
+
+# Serialization
+djangorestframework-xml>=2.0.0
+djangorestframework-csv>=3.0.1
+
+# Permissions
+django-guardian>=2.4.0
+django-rules>=3.3
+
+# Audit Trail
+django-auditlog>=2.3.0
+
+# Activity Stream
+django-activity-stream>=2.0.0
+
+# Notifications
+django-notifications-hq>=1.8.3
+
+# Comments
+django-contrib-comments>=2.2.0
+
+# Tagging
+django-taggit>=5.0.1
+
+# Ratings
+django-star-ratings>=0.9.2
+
+# Versioning
+django-reversion>=5.0.10
+
+# Import/Export
+django-import-export>=3.3.5
+
+# Admin Enhancements
+django-admin-rangefilter>=0.12.1
+django-admin-sortable2>=2.1.10
+
+# Forms
+django-crispy-forms>=2.1
+crispy-bootstrap5>=2.0.0
+
+# Widgets
+django-select2>=8.1.2
+django-autocomplete-light>=3.11.0
+
+# Rich Text
+django-ckeditor>=6.7.0
+django-tinymce>=3.7.1
+
+# Color Picker
+django-colorfield>=0.11.0
+
+# Phone Number
+django-phonenumber-field>=7.3.0
+
+# Countries
+django-countries>=7.5.1
+
+# Currency
+django-money>=3.4.0
+
+# Measurement
+django-measurement>=3.2.4
+
+# JSON Field
+jsonfield>=3.1.0
+
+# Array Field
+django-postgres-extra>=2.0.8
+
+# Full Text Search
+django-watson>=1.6.3
+
+# Sitemap
+django-dynamic-sitemap>=6.0.0
+
+# RSS/Atom
+feedparser>=6.0.10
+
+# Cron
+django-crontab>=0.7.1
+
+# Health Checks
+django-health-check>=3.18.1
+
+# Feature Flags
+django-waffle>=4.1.0
+
+# A/B Testing
+django-ab>=0.5.0
+
+# Analytics
+django-analytical>=3.1.0
+
+# GDPR
+django-gdpr-assist>=1.4.2
+
+# Logging
+django-log-request-id>=2.1.0
+
+# Compression
+django-compressor>=4.4
+
+# Minification
+django-htmlmin>=0.11.0
+
+# Cache
+django-cachalot>=2.6.1
+
+# Session
+django-user-sessions>=2.0.0
+
+# Middleware
+django-xff>=1.4.0
+
+# Security Headers
+django-csp>=3.8
+django-permissions-policy>=4.19.0
+
+# SSL
+django-sslserver>=0.22
+
+# Maintenance Mode
+django-maintenance-mode>=0.19.0
+
+# Backup
+django-dbbackup>=4.0.2
